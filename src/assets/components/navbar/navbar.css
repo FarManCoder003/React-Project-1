@@ -609,7 +609,6 @@ ul {
   color: rgba(187, 181, 224, 0.4);
 }
 ::-ms-input-placeholder {
-  /* Edge 12 -18 */
   color: rgba(187, 181, 224, 0.4);
 }
 #why button {
