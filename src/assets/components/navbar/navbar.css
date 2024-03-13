@@ -589,21 +589,28 @@ ul {
 #why input {
   width: 100%;
   height: 60px;
+  font-family: "Manrope", sans-serif;
   border-radius: 5px;
   margin-bottom: 24px;
-  border: none;
-  color: #fff;
-  font-family: "Manrope", sans-serif;
+  color: rgba(187, 181, 224, 0.4);
   font-size: 20px;
   font-weight: 400;
   padding-left: 21px;
   line-height: 30px; /* 150% */
   letter-spacing: -0.4px;
-  background: rgba(242, 243, 244, 0.2);
+  background-color: rgba(242, 243, 244, 0.2);
+  border: none;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+::placeholder {
+  color: rgba(187, 181, 224, 0.4);
+}
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: rgba(187, 181, 224, 0.4);
 }
 #why button {
   width: 100%;
