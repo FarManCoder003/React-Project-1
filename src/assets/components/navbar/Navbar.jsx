@@ -90,7 +90,7 @@ const Nav1 = () => {
       {/* feature start */}
       <section id="feature">
         <Container>
-          <img src="https://i.postimg.cc/KzJ97HXx/Register.png" />
+          <img src="https://i.postimg.cc/KzJ97HXx/Register.png" className="w-full"/>
           <Row>
             <Col>
               <h2>Our Feature</h2>
